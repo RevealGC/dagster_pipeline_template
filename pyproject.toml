@@ -1,0 +1,16 @@
+[project]
+name = "dagster-pipeline-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dagster>=1.10.9",
+    "duckdb>=1.2.2",
+    "pandas>=2.2.3",
+]
+
+[dependency-groups]
+dev = [
+    "dagster-webserver>=1.10.9",
+]
