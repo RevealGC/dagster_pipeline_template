@@ -38,10 +38,3 @@ uv lock --upgrade-package requests
 ``` bash
 uv python install 3.12
 ```
-
-### NOTE: Using ruff for linting
-alternatively you could use Black, isort, flake8 or some other combination of linters. Ruff is quickly becoming te modern standard.
-
-``` bash
-uv add ruff
-```
